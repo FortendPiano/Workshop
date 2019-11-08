@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: "FiraSansCondensed";
+}
+h1,
+h2 {
+    margin: 0;
+}
+p {
+    font-family: "Poppins";
+}
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  

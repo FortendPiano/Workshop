@@ -1,0 +1,92 @@
+
+.bg-main {
+    position: relative;
+    height: 1000px;
+    background: 
+    linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ), url("../img/bg-image/bg-main.jpg");
+    color: #fff;
+}
+.main-text {
+    position: absolute;
+    top: 348px;
+    left: 35%;
+}
+h1 {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.bg-sub-text {
+    font-size: 18px;
+    text-align: center;
+    max-width: calc(55em * 0.5);
+    margin: 0 auto 43px;
+    
+}
+.bg-btn {
+    display: block;
+    text-align: center;
+} 
+.main-btn {
+    background-image: url("../img/btn/main-btn.png");
+    border: none;
+    height: 55px;
+    width: 110px;
+    outline: none;
+}
+.arrow {
+    background-image: url("../img/btn/arrow-main-btn.png");
+    background-repeat: no-repeat;
+    height: 15px;
+    margin-left: -45%;
+}
+
+/* Listen Live */
+.listen-live-box {
+    position: relative;
+    background-color: #333;
+    padding: 109px 0 120px 0;
+}
+.head-ll {
+    /* display: inline-block; */
+}
+.svg {
+    display: inline-block;
+    margin-right: 33px;
+}
+.text-caption {
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+}
+.player-listen-life {
+    /* position: relative; */
+}
+.listen-box {
+    
+}
+.listen-play-box {
+    display: inline-block;
+}
+.slider-left {
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    color: white;
+    top: 50%;
+    left: 10%;
+    color: black;
+}
+.slider-right {
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    color: white;   
+    top: 50%; 
+    right: 10%;
+    color: black;
+}
