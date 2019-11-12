@@ -6,7 +6,7 @@
     linear-gradient(
           rgba(0, 0, 0, 0.5), 
           rgba(0, 0, 0, 0.5)
-        ), url("../img/bg-image/bg-main.jpg");
+        ), url("../img/bg-image/bg-main.jpg") no-repeat;
     color: #fff;
 }
 .main-text {
@@ -43,6 +43,18 @@ h1 {
     background-repeat: no-repeat;
     height: 15px;
     margin-left: -45%;
+}
+.messeng-icons {
+    position: absolute;
+    right: 116px;
+    top: 416px;
+}
+.messeng-icons .list-icons {
+    list-style: none;
+    margin: 0;
+}
+.list-icons li {
+    margin-bottom: 28px;
 }
 
 /* Listen Live */
@@ -178,4 +190,90 @@ h1 {
     bottom: 30px;
     width: 17px;
     height: 18px;
+    background: url("../img/face-listen-icons/button.png");
+}
+/* .button-hp audio {
+    display: none;
+} */
+
+
+/* Week playlist */
+.week {
+    position: relative;
+    background-color: #333333;
+    margin: 0;
+    padding: 112px 0 108px;
+    height: 685px;
+}
+.week-days {
+    background-color: #000033;
+    height: 470px;
+    margin: 0 50px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 0;
+}
+.list-week {
+    list-style: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin: 0;
+    padding: 5px;
+}
+.item-week-day {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    padding: 16px 35px;
+    margin-right: 3px;
+}
+.item-week-day:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+.item-week-day:nth-last-child(1) {
+    margin-right: 0;
+}
+.play-list-week {
+    position: relative;
+    top: 107px;
+}
+.listen-day-item {
+    position: relative;
+    width: 222px;
+    height: 150px;
+    background-color: #336699;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.listen-day-item:nth-child(5n) {
+    margin-right: 0;
+}
+.text-week {
+    position: absolute;
+    top: 30px;
+    left: 31px;
+    color: #fff;
+}
+.name-listen {
+    margin: 0 0 15px;
+}
+.btn-week-day {
+    background: url("../img/face-listen-icons/button.png") no-repeat;
+    width: 17px;
+    height: 18px;
+    border: 0;
+    margin-right: 87px;
+    vertical-align: middle;
+}
+.style-listen {
+    margin: 0 0 31px;
+}
+.time-week-day {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
 }
